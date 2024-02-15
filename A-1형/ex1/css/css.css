@@ -1,0 +1,83 @@
+*{box-sizing: border-box;}
+body{
+    font-family: sans-serif;
+    color: 222328;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  
+}
+
+/**********##############****header**************/
+header{
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    border: 1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.logobox{
+    width: 200px;
+    height: 100px;
+   
+    
+    
+}
+.nav{
+    width: 700px;
+    border: 1px solid black;
+}
+
+/**********##########slide************************/
+.slide{
+    height: 300px;
+    position: relative;
+    border: 1px solid black;
+}
+/********################contents#############*/
+.contents{
+    height: 200px;
+    display: flex;
+    border: 1px solid black;
+}
+.tabbox{
+    height: 200px;
+    width: 400px;
+    border: 1px solid rgb(85, 44, 44);
+}
+.bannerbox{
+    height: 200px;
+    width: 400px;
+    border: 1px solid rgb(187, 166, 166);
+}
+.quickbox{
+    height: 200px;
+    width: 400px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+/*******######footer#############*************/
+footer{
+    height: 100px;
+    border: 1px solid black;
+}
+.copybox{
+    width: 900px;
+    border: 1px solid black;
+}
+.snsbox{
+    width: 300px;
+    border: 1px solid black;
+}
