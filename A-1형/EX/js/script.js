@@ -11,6 +11,8 @@ $(function(){
        $('.tab').removeClass('active');
        $(href).addClass('active');
     });
+
+    
     setInterval(slideUpDown, 3000);// 3초에 한번씩 이미지 애니메이션 함수가 실행되도록한다.
 
     $('.pop').click(function(e){
